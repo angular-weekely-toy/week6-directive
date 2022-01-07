@@ -1,0 +1,16 @@
+<p>directives works!</p>
+
+<div >dd</div>
+<img src="favicon.ico"/>
+
+
+
+<button (click)="this.condition = !this.condition">toggle</button>
+<p *appDetails="condition" style="background-color: pink">
+  (A) This paragraph is displayed because the condition is false.
+</p>
+
+<p *appDetails="!condition" style="background-color: chocolate">
+  (B) Although the condition is true,
+  this paragraph is displayed because appUnless is set to false.
+</p>

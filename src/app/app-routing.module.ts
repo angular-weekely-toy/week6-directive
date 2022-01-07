@@ -6,6 +6,7 @@ import { BookSearchPageComponent } from './pages/book-search/book-search.page.co
 import { CalendarPageComponent } from './pages/calendar/calendar.page.component';
 import { CatSearchPageComponent } from './pages/cat-search/cat-search.page.component';
 import { EmojiComponent } from './pages/emoji/emoji.component';
+import {DirectivesComponent} from './pages/directives/directives.component';
 
 const routes: Routes = [
   {path: '', component: HomePageComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'calendar', component: CalendarPageComponent},
   {path: 'cat-search', component: CatSearchPageComponent},
   {path: 'emoji', component: EmojiComponent},
+  {path: 'directives', component: DirectivesComponent},
 ];
 
 @NgModule({

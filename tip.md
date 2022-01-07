@@ -69,6 +69,18 @@ tip
 - viewChild
   - https://stackoverflow.com/questions/40165294/access-multiple-viewchildren-using-viewchild
 
+- directives
+  - Angular 디렉티브는 구체적으로 이렇게 구분할 수 있습니다:
+    - 컴포넌트(Components): 템플릿이 존재하는 디렉티브입니다. 디렉티브 중에서는 컴포넌트 타입이 가장 많이 사용됩니다.
+    - 어트리뷰트 디렉티브(Attribute directives): 엘리먼트, 컴포넌트, 디렉티브의 모습이나 동작을 변경하는 디렉티브입니다.
+      - NgClass—CSS 클래스를 추가하거나 제거합니다.
+      - NgStyle—HTML 스타일을 추가하거나 제거합니다.
+      - NgModel—HTML 폼 엘리먼트에 양방향 데이터 바인딩을 연결합니다.
+    - 구조 디렉티브(Structural directives): 조건에 따라 DOM 엘리먼트를 추가하거나 제거하는 디렉티브입니다.
+      - NgIf—조건에 따라 템플릿의 일부를 DOM 트리에 추가하거나 DOM 트리에서 제거합니다.
+      - NgFor—배열에 있는 항목마다 템플릿 일부를 반복합니다.
+      - NgSwitch—조건에 맞는 화면을 DOM 트리에 추가합니다.
+
 - httpClient
   - https://angular.kr/guide/http
 

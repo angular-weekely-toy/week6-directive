@@ -17,6 +17,9 @@ import { CalendarPageComponent } from './pages/calendar/calendar.page.component'
 import { CatSearchPageComponent } from './pages/cat-search/cat-search.page.component';
 import { EmojiPipe } from './pipes/emoji.pipe';
 import { EmojiComponent } from './pages/emoji/emoji.component';
+import { ImageForceLoaderDirective } from './directives/image-force-loader.directive';
+import { DirectivesComponent } from './pages/directives/directives.component';
+import { DetailsDirective } from './directives/details.directive';
 
 /*
 declarations - 이 모듈에서 사용하는 뷰 클래스를 정의한다. Angular에는 컴포넌트, 디렉티브, 파이프 세 종류의 뷰 클래스가 있다.
@@ -45,7 +48,10 @@ registerLocaleData(localeKo);
     CalendarPageComponent,
     CatSearchPageComponent,
     EmojiPipe,
-    EmojiComponent
+    EmojiComponent,
+    ImageForceLoaderDirective,
+    DirectivesComponent,
+    DetailsDirective
   ],
   imports: [
     BrowserModule,
